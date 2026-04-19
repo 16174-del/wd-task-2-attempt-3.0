@@ -52,13 +52,13 @@ nav{
     text-align: center;
 }
 .text-box h1{
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
 }
 .text-box p{
     margin: 15px 0 30px;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Outfit', sans-serif;
     color: #ffffff;
     background-color: #222222;
@@ -84,6 +84,22 @@ nav{
 }
 
 /*----- about -----*/
+
+.aboutzippiegallery{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+.imagebox{
+    margin: 0 1%;
+}
+.imagebox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .about{
     width: 80%;
