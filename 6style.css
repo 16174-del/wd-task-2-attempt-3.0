@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(#222222,#222222);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #344034;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: #344034;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    align-items: center;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+.text-box p{
+    margin: 15px 0 30px;
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+    background-color: #222222;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #786383;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    background: #786383;
+    position: relative;
+    cursor: pointer;
+}
+.insta-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #4c4b4b;
+    border-radius: 25px;
+    padding: 2px 5px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    background: #4c4b4b;
+    position:relative;
+    cursor: pointer;
+}
+.youtube-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #4c4b4b;
+    border-radius: 25px;
+    padding: 2px 5px;
+    background: #4c4b4b;
+    position: relative;
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+}
+
+/*----- about -----*/
+
+.aboutzippiegallery{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+.imagebox{
+    margin: 0 1%;
+}
+.imagebox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    color: #3c3440;
+}
+p{
+    font-size: 15px;
+    font-family: 'Monserrat', sans-serif;
+    color: #222222;
+    padding-top: 50px
+}
+
+/*----- acting -----*/
+
+.acting{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    color: #3c3440;
+}
+p{
+    font-size: 15px;
+    font-family: 'Monserrat', sans-serif;
+    color: #222222;
+    padding-top: 50px
+}
+
+/*----- production -----*/
+
+.production{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    color: #3c3440;
+}
+p{
+    font-size: 15px;
+    font-family: 'Monserrat', sans-serif;
+    color: #222222;
+    padding-top: 50px
+}
+
+/*----- training -----*/
+
+.training{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    color: #3c3440;
+}
+p{
+    font-size: 15px;
+    font-family: 'Monserrat', sans-serif;
+    color: #222222;
+    padding-top: 50px
+}
