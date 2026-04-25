@@ -10,6 +10,9 @@
     background-size: cover;
     position: relative;
 }
+
+/*----- navbar -----*/
+
 #navbar{
     position: sticky;
     top: 0;
@@ -48,6 +51,9 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+/*----- home -----*/
+
 .text-box{
     width: 90%;
     color: #ffffff;
@@ -70,7 +76,7 @@ nav{
     background-color: #222222;
 }
 .hero-btn{
-    display: inline-block;
+    display: column;
     text-decoration: none;
     color: #ffffff;
     border: 1px solid #786383;
@@ -83,21 +89,16 @@ nav{
     position: relative;
     cursor: pointer;
 }
-.insta-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    border: 1px solid #4c4b4b;
-    border-radius: 25px;
-    padding: 2px 5px;
-    font-family: 'Monserrat', sans-serif;
-    font-weight: bold;
-    background: #4c4b4b;
-    position:relative;
-    cursor: pointer;
+.external-link-btns{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: relative;
 }
-.youtube-btn{
-    display: inline-block;
+.btn{
+    display: column;
     text-decoration: none;
     color: #ffffff;
     border: 1px solid #4c4b4b;
@@ -106,11 +107,15 @@ nav{
     background: #4c4b4b;
     position: relative;
     cursor: pointer;
-}
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin: 5px;
+    margin-inline-start: 10px;
+    text-align: center;
 }
 
 /*----- about -----*/
@@ -122,10 +127,10 @@ nav{
     margin: 5% auto 0;
     box-sizing: border-box;
 }
-.imagebox{
+.aboutslideshow{
     margin: 0 1%;
 }
-.imagebox img{
+.aboutslides{
     width: 100%;
     height: 100%;
     object-fit: cover;
