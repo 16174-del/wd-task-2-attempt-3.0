@@ -54,6 +54,14 @@ nav{
 
 /*----- home -----*/
 
+.logo{
+    position: absolute;
+    text-align: center;
+    display: relative;
+    top: 20%;
+    left: 29%;
+}
+
 .text-box{
     width: 90%;
     color: #ffffff;
@@ -116,100 +124,4 @@ nav{
     margin: 5px;
     margin-inline-start: 10px;
     text-align: center;
-}
-
-/*----- about -----*/
-
-.aboutzippiegallery{
-    height: 75%;
-    width: 100%;
-    display: flex;
-    margin: 5% auto 0;
-    box-sizing: border-box;
-}
-.aboutslideshow{
-    margin: 0 1%;
-}
-.aboutslides{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.about{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-h1{
-    font-size: 30px;
-    font-family: 'Outfit', sans-serif;
-    color: #3c3440;
-}
-p{
-    font-size: 15px;
-    font-family: 'Monserrat', sans-serif;
-    color: #222222;
-    padding-top: 50px
-}
-
-/*----- acting -----*/
-
-.acting{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-h1{
-    font-size: 30px;
-    font-family: 'Outfit', sans-serif;
-    color: #3c3440;
-}
-p{
-    font-size: 15px;
-    font-family: 'Monserrat', sans-serif;
-    color: #222222;
-    padding-top: 50px
-}
-
-/*----- production -----*/
-
-.production{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-h1{
-    font-size: 30px;
-    font-family: 'Outfit', sans-serif;
-    color: #3c3440;
-}
-p{
-    font-size: 15px;
-    font-family: 'Monserrat', sans-serif;
-    color: #222222;
-    padding-top: 50px
-}
-
-/*----- training -----*/
-
-.training{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-h1{
-    font-size: 30px;
-    font-family: 'Outfit', sans-serif;
-    color: #3c3440;
-}
-p{
-    font-size: 15px;
-    font-family: 'Monserrat', sans-serif;
-    color: #222222;
-    padding-top: 50px
 }

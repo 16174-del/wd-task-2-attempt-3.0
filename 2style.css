@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(#222222,#222222);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*----- navbar -----*/
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #344034;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: #344034;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    align-items: center;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/*----- about -----*/
+
+.aboutzippiegallery{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(2000px, 1fr));
+gap: 15px;
+padding: 20px;
+justify-content: center;
+}
+.aboutzippieimage img{
+width: 100%;
+height: auto;
+transition: transform 0.3s ease;
+justify-content: center;
+}
+.aboutzippieimage img:hover{
+transform: scale(1.05);
+}
+figure {
+padding: 5px;
+max-width: 300px;
+margin: auto;
+}
+figcaption {
+color: #fff;
+font-style: italic;
+padding: 4px;
+text-align: center;
+font-family: Outfit;
+}
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+p{
+    font-size: 17px;
+    font-family: 'Monserrat', sans-serif;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
